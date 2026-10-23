@@ -17,27 +17,32 @@ nav a{margin-right:16px}</style></head>
 <h1>Privacy Policy</h1>
 <p>Futari Rhythm ("the App") is provided by Ryota Masuda ("the Operator") and diagnoses compatibility between two people from a LINE chat export. This policy explains what the App handles, where it goes and how to delete it.</p>
 <h2>1. Chat history</h2>
-<p>The chat file you choose is read and analysed only on your device. The full text, both names, word lists and results are never sent to the Operator or any outside service. The Operator runs no servers.</p>
-<p>A chat export also contains the other person's messages and name. The App never takes them off your device. Showing names or words on a share card is off by default; check with the other person before sharing a card that shows them.</p>
+<p>The chat file you choose is read and analysed on your device. The full text, both names, word lists and results are never sent to the Operator or any outside service.</p>
+<p>The one exception is the optional "AI insights" feature. Only after you agree on the first-use consent screen and tap the button, an excerpt of up to 100 messages (80 characters each) selected from the chat, together with the date of each message (year, month and day; no time of day) and the top words each of you uses (common words such as greetings and time words removed, up to 10 each, counted after names are masked), is sent through the Operator's relay server to Anthropic, PBC (United States). Before sending, both names, phone numbers, emails and URLs are masked on your device and speakers are replaced with "A" and "B". In return the AI writes the flow of the chat, conversation habits and suggested rewordings, and also a guess, from the text of the chat alone, about how you seem to feel about the other person and the relationship (good points and points of concern). It is not a diagnosis and can be wrong. The relay does not store the chat; it logs only a hash of an anonymous ID, counts, character counts and timing. To prevent abusive overuse, it keeps a value converted from the connecting IP address (a hash; the original IP address is not kept) for up to 36 hours. Anthropic handles the data under its own terms. You can withdraw consent in Settings at any time. Tapping the purchase button for the detailed diagnosis ("Agree and open for ...") also counts as consent, and the insights are then created automatically after the purchase. There is no cheaper version without the AI insights. If you have set the feature to "not use", the purchase opens only the numeric diagnosis and no insights are created. Withdrawing sets the feature to "not use": the excerpt waiting on your device is deleted and no excerpt is stored for later diagnoses. Turning it on again in Settings returns it to "not answered yet".</p>
+<p>A chat export also contains the other person's messages and name. The App never takes them off your device, except in the AI insights feature above, where names are masked before sending. Showing names or words on a share card is off by default; check with the other person before sharing a card that shows them.</p>
 <h2>2. Kept on your device</h2>
 <ul>
 <li>The score, type and numbers such as reply times</li>
 <li>Top 20 words, up to 10 short phrases sent twice or more, words that rose or fell between the first and second half (5 each)</li>
 <li>Both display names</li>
 <li>Records of opened detailed diagnoses (purchase transaction IDs)</li>
+<li>AI insight text (conversation habits, points to improve with suggested rewordings, the flow of the chat, and a guess about your feelings and the relationship) with short quoted messages (only for diagnoses where you used the feature)</li>
+<li>The masked excerpt waiting to be sent (up to 100 messages, with each message's date, and the top words each of you uses, up to 10 each). Unless you have answered "not use", it is stored temporarily on your device for each diagnosis, including before you consent (it is not sent until you agree). It is deleted when the insights are made, when you answer "not use" (withdrawing consent in Settings counts), or when the diagnosis is deleted</li>
+<li>A random ID the App creates per device to count AI insight uses. Uses per purchase are counted by the purchase transaction ID</li>
 </ul>
 <p>The copy of the chosen file is deleted after reading. This information is excluded from iCloud and Google backups, and is removed with "Delete all results" in Settings or by deleting the App.</p>
 <h2>3. Sent outside the App</h2>
 <ul>
-<li><b>RevenueCat, Inc. (United States)</b>: To verify purchases, an anonymous identifier created by RevenueCat and purchase records (product, transaction ID, time). No chat content or names.</li>
+<li><b>RevenueCat, Inc. (United States)</b>: To verify purchases, an anonymous identifier created by RevenueCat and purchase records (product, transaction ID, time). No chat content or names. When AI insights are created, the Operator's relay server also sends this anonymous identifier and the purchase transaction ID to RevenueCat to check that the purchase actually exists.</li>
 <li><b>Functional Software, Inc. (Sentry, United States)</b>: When the App stops unexpectedly, the error type, where in the code it happened, and the device model and OS version, so the problem can be fixed. No error text, interaction history, chat content or names.</li>
+<li><b>Anthropic, PBC (United States)</b>: Only when you agree and tap the AI insights button, a masked excerpt, the date of each message and the top words each of you uses are sent through the Operator's relay server so insights can be written. The relay also keeps hashes of the device ID and the purchase transaction ID to enforce usage limits, and a hash of the connecting IP address (kept for up to 36 hours) to prevent abusive overuse.</li>
 <li><b>Apple and Google</b>: Purchases go through the App Store and Google Play.</li>
 </ul>
 <p>The App shows no ads and does no tracking for advertising.</p>
 <h2>4. Purposes</h2>
-<p>Diagnosing compatibility, verifying purchases and fixing bugs. Nothing else.</p>
+<p>Diagnosing compatibility, writing AI insights (if you agree), verifying purchases and fixing bugs. Nothing else.</p>
 <h2>5. Deletion</h2>
-<p>Data on your device can be deleted as described in section 2. Purchase records held by RevenueCat are linked to your Apple or Google purchases and cannot be deleted from the App; email us if you want them deleted.</p>
+<p>Data on your device can be deleted as described in section 2. An excerpt sent to the AI cannot be deleted by the Operator, because the Operator's server does not store it. Purchase records held by RevenueCat are linked to your Apple or Google purchases and cannot be deleted from the App; email us if you want them deleted.</p>
 <h2>6. Children</h2>
 <p>The App is not directed at children under 13.</p>
 <h2>7. Contact</h2>
